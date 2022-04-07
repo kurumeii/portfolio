@@ -18,7 +18,7 @@
     "@heroicons/react": "^1.0.5",
     "axios": "^0.24.0",
     "classnames": "^2.3.1",
-    "daisyui": "^1.16.1",
+    "daisyui": "^2.11.1",
     "next": "^12.0.4",
     "next-auth": "^4.0.0-beta.7",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -35,18 +35,18 @@
     "@plaiceholder/next": "^2.2.0",
     "@types/cors": "^2.8.12",
     "@types/react": "^17.0.34",
-    "autoprefixer": "^10.4.0",
+    "autoprefixer": "^10.4.4",
     "cors": "^2.8.5",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "plaiceholder": "^2.2.0",
-    "postcss": "^8.3.11",
+    "postcss": "^8.4.12",
     "prettier": "^2.4.1",
     "react-social-login-buttons": "^3.6.0",
     "sharp": "^0.29.3",
     "swr": "^1.0.1",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^3.0.23"
   }
 }

@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 import {getCardList} from '~/lib/controller/signUpController'
 import useAutoSlide from '~/utils/hooks/useAutoSlide'
-import useSignIn from '~/utils/hooks/useSignIn'
+import useSignUp from '~/utils/hooks/useSignUp'
 
 export const getStaticProps = async () => {
   const list = await getCardList()
@@ -28,7 +28,7 @@ function SignUp({arrList}) {
     handleUpload,
     openInNewTab,
     clearFile,
-  } = useSignIn()
+  } = useSignUp()
   return (
     <>
       <Header>

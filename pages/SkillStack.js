@@ -28,7 +28,7 @@ export default function SkillStack() {
               ></Image>
               <h2 className='text-xl font-bold inline-flex'>Web dev stack</h2>
               <p className=''>I have enough knowledge writing code in</p>
-              <ul className='list-disc flex flex-col'>
+              <ul className='list-none flex flex-col'>
                 <li>
                   Vanilla JS{' '}
                   <Image
@@ -52,8 +52,8 @@ export default function SkillStack() {
                   <Image
                     src='/images/misc/reactjs-icon.svg'
                     alt='react-logo'
-                    width={25}
-                    height={25}
+                    width={35}
+                    height={35}
                   />
                 </li>
                 <li>
@@ -61,8 +61,8 @@ export default function SkillStack() {
                   <Image
                     src='/images/misc/dot-net-core.svg'
                     alt='dotnet-logo'
-                    width={25}
-                    height={25}
+                    width={35}
+                    height={35}
                   />
                 </li>
                 <li>

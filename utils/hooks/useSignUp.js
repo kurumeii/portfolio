@@ -1,6 +1,6 @@
 import {useCallback} from 'react'
 import {useState} from 'react'
-export default function useSignIn() {
+export default function useSignIp() {
   const [fileUploaded, setUploadedFile] = useState({
     imgSrc: '',
     imgName: '',
